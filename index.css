@@ -1,0 +1,266 @@
+/* ------------------------ */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: var(--black-color);
+    font-family: 'Roboto', sans-serif;
+    /* background-image: url('images/background-body.jpg');
+    background-repeat: no-repeat; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black-color: #131515;
+    --dark-black-color: #000000;
+    --white-color: #FFFFFF;
+    --dark-grey-color: #2E2E2F;
+    --gray-color: #e5e5e5;
+    --white-gray-color: #A5A5A5;
+
+}
+
+/* ------------------------ */
+
+
+
+
+
+/* HEADING, PARAGRAPH, ITEM, LINK */
+
+h1 {
+    margin: 0;
+    font-size: 2.8rem;
+
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+h3 {
+    margin: 0 8px 0 0;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+p {
+    text-align: start;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--white-gray-color);
+    word-spacing: 3px;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+    letter-spacing: 1px;
+}
+.a-margin{
+    margin: 10px 0;
+}
+
+a:hover {
+    border-bottom: 1px solid var(--white-color);
+}
+
+.item-search {
+    color: var(--dark-grey-color);
+    background-color: var(--white-color);
+}
+
+.star-item {
+    margin: 0 8px;
+    color: gold;
+}
+
+.plus-minus-item {
+    border-radius: 50%;
+    margin: 0 8px 0 0;
+    padding: 4px;
+    background-color: var(--white-color);
+    color: var(--dark-black-color);
+}
+
+.item-film {
+    color: var(--dark-grey-color);
+    font-size: 4rem;
+}
+
+
+/* ------------------------ */
+
+
+
+
+
+/* HEADER section */
+
+header {
+    background-color: #131515;
+    background-image: url('images/background.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: 34rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+    position: relative;
+
+}
+
+form {
+    display: flex;
+    padding: 0.2rem;
+    width: 28.875rem;
+    height: 2rem;
+    background-color: var(--white-color);
+    border-radius: 0.5rem;
+    box-sizing: content-box;
+    position: absolute;
+    top: 90%;
+    left: 7%;
+}
+
+label {
+    background-color: var(--white-color);
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    width: 35%;
+    height: 100%;
+    color: var(--grey-color);
+    background-color: var(--white-gray-color);
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.input-film {
+    background-color: var(--white-color);
+    height: 100%;
+    width: 60%;
+    border: none;
+}
+
+/* ------------------------ */
+
+
+
+
+
+/* MAIN section */
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;     */
+    width: 34rem;
+    min-height: 34rem;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: var(--dark-black-color);
+    text-align: center;
+
+}
+
+.film-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto 0 auto;
+
+}
+
+.ghost-text {
+    text-align: center;
+    margin: 0;
+    max-width: 350px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--dark-grey-color);
+}
+
+/* ------------------------ */
+
+
+
+
+
+/* LIST FILMS BY SEARCH */
+
+.film-card {
+    box-sizing: content-box;
+    display: flex;
+    width: 28.875rem;
+    height: 162px;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: var(--white-color);
+}
+
+.film-card:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.film-info-container {
+    padding: 10px;
+}
+
+.poster-img {
+    width: 100px;
+    height: 150px;
+}
+
+.title-film {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.time-ganre-info {
+    margin: 10px 0;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.button-move-watchlist {
+    color: var(--white-color);
+    background-color: var(--dark-black-color);
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.film-text-info {
+    margin: 0;
+}
+
+/* ------------------------ */
+
+
+
+
+
+/* NEW */

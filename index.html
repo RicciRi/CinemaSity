@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema-City</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- ITEM -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- GOOGLE FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Find your film</h1>
+        <a href="myList.html">My Watchlist</a>
+        <form method="get">
+            <label for="search"><i class="item-search fa-solid fa-magnifying-glass"></i></label>
+            <input type="text" class="input-film" id="search" name="q" placeholder="Search your film" required>
+            <button type="submit" class="submit" id="submit-button">Search</button>
+        </form>
+    </header>
+    <main id="main">
+        <div class="film-item-container" id="film-item-container">
+            <i class="item-film fa-solid fa-film"></i>
+            <p class="ghost-text">Start exploring</p>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
